@@ -34,8 +34,7 @@ const RoastGithubForm: React.FC = () => {
       setShowPopup(true);
     } catch (error) {
       setResponseData({
-        message: 'Error occurred while sending the report.',
-        error
+        message: 'Error occurred while sending the username / Github Profile not found',
       });
       setShowPopup(true);
     } finally {
